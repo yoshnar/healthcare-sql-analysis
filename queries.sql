@@ -1,10 +1,7 @@
--- =========================================
--- HEALTHCARE SQL ANALYSIS PROJECT
+HEALTHCARE SQL ANALYSIS PROJECT
 -- Patient Flow, Wait Times, and Satisfaction
--- =========================================
+-- 
 
-
--- =========================================
 -- 1. DATA QUALITY CHECKS
 -- =========================================
 
@@ -20,8 +17,6 @@ FROM patient_data
 WHERE wait_time > 120;
 
 
-
--- =========================================
 -- 2. VOLUME ANALYSIS
 -- =========================================
 
@@ -61,7 +56,6 @@ ORDER BY patient_count DESC;
 
 
 
--- =========================================
 -- 3. OPERATIONAL PERFORMANCE
 -- =========================================
 
@@ -82,7 +76,6 @@ GROUP BY wait_time_group;
 
 
 
--- =========================================
 -- 4. SATISFACTION ANALYSIS
 -- =========================================
 
